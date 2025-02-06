@@ -18,18 +18,30 @@ int main() {
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
-printf("Desafio Super Trunfo - Países");
+printf("Desafio Super Trunfo - Países\n");
 
-char A = Argentina;
-char B = Brasil;
-char C = Chile;
-char D = Paraguai;
-char E = Equador;
-char F = Uruguai;
-char G = Venezuela;
-char H = Colombia;
+int populacao, pontoTuristico;
+float area;
+long double PIB;
+char nome[50];
 
-printf("Digite o código do País: %c\n", char);
+printf("Digite o nome da cidade:\n");
+scanf("%s", &nome);
+
+printf("Digite o código da cidade:\n");
+
+
+printf("Digite a população da cidade:\n");
+
+
+printf("Digite a área da cidade (em km²):\n");
+
+
+printf("Digite o PIB da cidade:\n");
+
+
+printf("Digite o número de Pontos Turísticos da cidade:\n");
+
 
 
     return 0;
