@@ -77,6 +77,7 @@ int main() {
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
 printf("Desafio Super Trunfo - Países\n");
+printf("*****NIVEL NOVATO*****\n");
 
 int populacao = 25;
 int pontoTuristico = 1;
@@ -109,6 +110,15 @@ printf("População: %d\n", populacao);
 printf("Área (km²): %f\n", area);
 printf("PIB: %ld\n", PIB);
 printf("Quantidade de Pontos Turísticos: %d\n", pontoTuristico);
+
+// NÍVEL AVENTUREIRO
+
+float densidadePopulacional = populacao / area;
+float pibpercapita = PIB / populacao;
+
+printf("*****NIVEL AVENTUREIRO*****\n");
+printf("Densidade Populacional: %.2f\n", densidadePopulacional);
+printf("PIB Per Capita: %.2f\n", pibpercapita);
 
     return 0;
 }
